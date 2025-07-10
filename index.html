@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Technische Redaktion SAP TRM</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to right, #f8fafc, #e2e8f0);
+      color: #1e293b;
+      padding: 2rem;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background-color: #ffffffcc;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+      border-radius: 16px;
+      padding: 3rem;
+      animation: fadeIn 1s ease-in;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      color: #0f172a;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      color: #1e40af;
+    }
+
+    p, li {
+      line-height: 1.6;
+      margin-bottom: 0.75rem;
+    }
+
+    ul {
+      padding-left: 1.25rem;
+    }
+
+    .contact {
+      margin-top: 2rem;
+      padding-top: 1rem;
+      border-top: 1px solid #cbd5e1;
+    }
+
+    .fade {
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeUp 0.8s ease forwards;
+    }
+
+    .fade:nth-child(1) { animation-delay: 0.2s; }
+    .fade:nth-child(2) { animation-delay: 0.4s; }
+    .fade:nth-child(3) { animation-delay: 0.6s; }
+    .fade:nth-child(4) { animation-delay: 0.8s; }
+
+    @keyframes fadeUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="fade">Technische Redaktion im SAP TRM-Umfeld</h1>
+    <p class="fade">Ich bin SAP TRM-Beraterin und ABAP-Entwicklerin mit Fokus auf Treasury & Risk Management. Als technische Redakteurin helfe ich Unternehmen, komplexe SAP-Prozesse verständlich und nachvollziehbar zu dokumentieren.</p>
+
+    <h2 class="fade">Leistungen</h2>
+    <ul class="fade">
+      <li>Technische Dokumentation von Eigenentwicklungen und Schnittstellen</li>
+      <li>Fachliche Konzepte & Customizing-Dokumentation</li>
+      <li>Endanwender-Guides & Schulungsunterlagen</li>
+      <li>Redaktion für SAP-Blogs, Whitepaper und interne Wissensdatenbanken</li>
+    </ul>
+
+    <h2 class="fade">Profil</h2>
+    <ul class="fade">
+      <li>Mehr als 5 Jahre Erfahrung im SAP TRM-Umfeld</li>
+      <li>ABAP-Entwicklungserfahrung (ALV, Schnittstellen, BAPIs)</li>
+      <li>Hohe sprachliche Präzision & Strukturierungsfähigkeit</li>
+      <li>Verständnis für Fach-, Technik- und Anwenderperspektive</li>
+    </ul>
+
+    <div class="contact fade">
+      <h2>Kontakt</h2>
+      <p>E-Mail: <a href="mailto:deine.email@beispiel.de">deine.email@beispiel.de</a></p>
+      <p>LinkedIn: <a href="#">linkedin.com/in/deinprofil</a></p>
+      <p>Remote oder vor Ort nach Absprache</p>
+    </div>
+  </div>
+</body>
+</html>
